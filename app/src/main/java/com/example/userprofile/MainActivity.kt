@@ -53,11 +53,11 @@ fun UserProfileScreen() {
         ) {
             // Profile Image
             Image(
-                painter = painterResource(id = R.drawable.profile_picture), // Replace with actual image
+                painter = painterResource(id = R.drawable.profile_picture),
                 contentDescription = "Profile Picture",
                 modifier = Modifier
                     .size(120.dp)
-                    .clip(CircleShape) // Rounded profile image
+                    .clip(CircleShape)
             )
 
             Spacer(modifier = Modifier.height(16.dp))
